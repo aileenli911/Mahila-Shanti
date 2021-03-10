@@ -1,68 +1,135 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Angela's Personal Site</title>
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+<!doctype html>
+<html lang="en">
+<title>Mahila Shanti</title>
 
-  <body>
-    <table cellspacing="20">
-      <tr>
-        <td><img src="images/angela.png" alt="angela profile picture"></td>
-        <td><h1>Angela Yu</h1>
-        <p><em>Founder and CTO of <strong><a href="https://www.appbrewery.co/">The App Brewery</a></strong>.</em></p>
-        <p>I am an iOS and Web Developer. I ❤️ coffee and brew my own beers.</p></td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Books and Teaching</h3>
-    <ul>
-      <li>The Complete iOS App Development Bootcamp</li>
-      <li>The Complete Web Development Bootcamp</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2009-2010</td>
-          <td>Researcher at The Institute of Cognitive Neurosciences</td>
-        </tr>
-        <tr>
-          <td>2010-2013</td>
-          <td>Lead Developer at Tempo App</td>
-        </tr>
-        <tr>
-          <td>2013-2015</td>
-          <td>Clinical Doctor at the National Health Service</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>iOS Development</td>
-        <td>⭐️⭐️⭐️⭐️⭐️</td>
-      </tr>
-      <tr>
-        <td>Web Development</td>
-        <td>⭐️⭐️⭐️⭐️⭐️</td>
-      </tr>
-      <tr>
-        <td>Photography</td>
-        <td>⭐️⭐️</td>
-      </tr>
-    </table>
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contact-me.html">Contact Me</a>
-  </body>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;700&family=Lato&family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/9929f154b4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Mahila Shanti</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our projects</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Other
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </section>
+
+  <!-- Carousel -->
+  <section id="carousel-about">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row align-items-center">
+            <div class="col-med py-2">
+              <img class="testimonial-image" src="Images/menwithwood.JPG" alt="menwithwood">
+            </div>
+            <div class="col-med py-2">
+              <h2 class="testimonial-text">Together, make a difference</h2>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <h2>For the empowerment of girls and women</h2>
+          <img class="testimonial-image" src="Images/villageteaching1.jpg" alt="village-image1">
+        </div>
+        <div class="carousel-item">
+          <h2>Located in Gumla's villages in Jharkhand, India</h2>
+          <img class="testimonial-image" src="Images/studentgirls.JPG" alt="student-girls">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- projects -->
+  <section id="projects">
+    <div class="row">
+      <div class="feature-box col-lg-4 center-block text-center">
+        <div class="logos"><i class="fas fa-dollar-sign"></i></i>
+        </div>
+        <h3>Our goal</h3>
+        <p>Aiming to raise EUR 30,000 in three years</p>
+      </div>
+      <div class="feature-box col-lg-4 center-block text-center">
+        <div class="logos"><i class="fas fa-bullseye"></i>
+        </div>
+        <h3>Projects</h3>
+        <p>Details about projects</p>
+      </div>
+      <div class="feature-box col-lg-4 center-block text-center">
+        <div class="logos"><i class="fas fa-heart"></i>
+        </div>
+        <h3>more projects</h3>
+        <p>more details about projects go here</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact us -->
+  <section id="contact-us">
+    <div class="Contact">
+    <h2>Get in touch with us</h2>
+    <p></p>
+    </div>
+  </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src=s"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </section>
+</body>
+
 </html>
