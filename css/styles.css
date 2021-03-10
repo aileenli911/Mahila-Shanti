@@ -2,28 +2,49 @@
   background: #91091E;
 }
 
-/* font-family: 'Hind', sans-serif;
-font-family: 'Lato', sans-serif;
+/* font-family: 'Arbutus Slab', serif;
 font-family: 'Montserrat', sans-serif; */
 h1 {
-  font-family: Montserrat extra-bold 800, cursive;
+  font-family: Arbutus Slab, serif;
 }
 h2 {
-  font-family: Lato, cursive;
-  color: #413C69;
+  font-family: Arbutus Slab, serif;
+  color:#91091E;
   font-size: 1.5rem;
 }
-
-.container-fluid {
-  padding: 3% 15%;
+h3 {
+  font-family: Arbutus Slab, serif;
+  color:  white;
+  font-size: 1.5rem;
 }
+h4 {
+  font-family: Arbutus Slab, serif;
+  color: #91091E;
+  font-size: 1.5rem;
+}
+.container-fluid {
+  background: #91091E;
+}
+
+.carousel .carousel-item img {
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+.carousel .carousel-item img {
+  height: 550px;
+  object-fit: cover;
+}
+}
+
 /*Navigation bar*/
 .navbar {
   padding: .5rem 0 0.5rem;
 }
 
 .navbar-brand {
-  font-family: "Montserrat", cursive;
+  font-family: "Arbutus Slab", serif;
   font-size: 2.5rem;
   font-weight: bold;
   margin-left: 5px;
@@ -34,25 +55,10 @@ h2 {
 }
 
 .nav-link {
-  font-family: "Montserrat", cursive;
+  font-family: "Arbutus Slab", serif;
   font-weight: light;
   font-size: 1.5rem;
 }
-/* Carousel */
-#carousel-about {
-  text-align: left;
-background-color: #A1CAe2;
-}
-.carousel-item {
-  padding: 3% 30%;
-}
-
-.testimonial-image {
-  padding: 3% 0 15%;
-  width: 400px;
-  height: 500px
-}
-
 /* Projects */
 #projects {
   padding: 3% 15%;
@@ -64,11 +70,10 @@ background-color: #A1CAe2;
 .feature-box {
   padding: 5%;
 }
-.jumbotron-image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#contact {
+  background: #57acd3;
+  padding: 3% 0%;
 }
-#contact-us {
-  background: #59886B;
+.contact-logo {
+    color: white;
 }
