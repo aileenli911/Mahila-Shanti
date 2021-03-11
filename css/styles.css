@@ -33,7 +33,7 @@ h4 {
 
 @media (min-width: 768px) {
 .carousel .carousel-item img {
-  height: 550px;
+  height: 750px;
   object-fit: cover;
 }
 }
