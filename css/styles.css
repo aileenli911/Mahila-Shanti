@@ -1,5 +1,5 @@
 #title {
-  background: #91091E;
+  background: #6d171c;
 }
 
 /* font-family: 'Arbutus Slab', serif;
@@ -7,46 +7,87 @@ font-family: 'Montserrat', sans-serif; */
 h1 {
   font-family: Arbutus Slab, serif;
 }
-h2 {
-  font-family: Arbutus Slab, serif;
-  color:#91091E;
-  font-size: 1.5rem;
-}
-h3 {
-  font-family: Arbutus Slab, serif;
-  color:  white;
-  font-size: 1.5rem;
-}
+
+h2,
 h4 {
   font-family: Arbutus Slab, serif;
-  color: #91091E;
+  color: #6d171c;
   font-size: 1.5rem;
 }
-.container-fluid {
-  background: #91091E;
+
+h3,
+.display-4 {
+  font-family: Arbutus Slab, serif;
+  color: #7a92a2;
+  font-size: 2rem;
 }
 
+h5,
+.lead {
+  font-family: Arbutus Slab, serif;
+  color: #7a92a2;
+  font-size: 1rem;
+}
+
+.container-fluid {
+  background: #6d171c;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background-size: cover;
+  height: 80vh;
+  text-align: left;
+}
+
+#home-banner {
+  margin: 95px 0 0;
+  position: relative;
+}
+
+.jumbotron-container {
+  position: relative;
+  margin-top: 130px;
+  z-index: 100;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.overlay,
+.home-banner-area {
+  background: rgba(21, 24, 29, 0.7);
+  opacity: 0.5;
+}
+
+/* Carousel fade */
 .carousel .carousel-item img {
   height: 200px;
   object-fit: cover;
   min-height: 85vh;
 }
-/* Carousel fade */
+
 .carousel-fade .carousel-item {
-	opacity: 0;
-	transition-duration: .6s;
-	transition-property: opacity;
+  opacity: 0;
+  transition-duration: .6s;
+  transition-property: opacity;
 }
 
 .carousel-fade .carousel-item.active,
 .carousel-fade .carousel-item-next.carousel-item-left,
 .carousel-fade .carousel-item-prev.carousel-item-right {
-	opacity: 1;
+  opacity: 1;
 }
 
 .carousel-fade .active.carousel-item-left,
 .carousel-fade .active.carousel-item-right {
-	opacity: 0;
+  opacity: 0;
 }
 
 .carousel-fade .carousel-item-next,
@@ -54,20 +95,19 @@ h4 {
 .carousel-fade .carousel-item.active,
 .carousel-fade .active.carousel-item-left,
 .carousel-fade .active.carousel-item-prev {
-	transform: translateX(0);
-	transform: translate3d(0, 0, 0);
+  transform: translateX(0);
+  transform: translate3d(0, 0, 0);
   /* End carousel fade */
 }
-/* @media (min-width: 768px) {
-.carousel .carousel-item img {
-  height: 750px;
-  object-fit: cover;
-}
-} For future reference, not needed here*/ 
+
 
 /*Navigation bar*/
 .navbar {
   padding: .5rem 0 0.5rem;
+}
+
+.navbar-dark .navbar-brand {
+  color: #7a92a2;
 }
 
 .navbar-brand {
@@ -86,21 +126,90 @@ h4 {
   font-weight: light;
   font-size: 1.5rem;
 }
+
 /* Projects */
 #projects {
   padding: 3% 15%;
 }
+
 .logos {
   font-size: 5rem;
-  color: #91091E;
+  color: #6d171c;
 }
+
+a {
+  color: #6d171c;
+}
+
+.fa-bullseye:hover {
+  color: #b93242;
+}
+
+.fa-instagram:hover {
+  color: #b93242;
+}
+
+.fa-facebook-f:hover {
+  color: #b93242;
+}
+
 .feature-box {
   padding: 5%;
 }
+
 #contact {
-  background: #57acd3;
+  background: #7a92a2;
   padding: 3% 0%;
 }
+
 .contact-logo {
-    color: white;
+  color: #7a92a2;
+}
+
+/* Team html */
+.team-section-header {
+  background-color: #6d171c;
+  padding: 30px;
+  text-align: center;
+}
+
+.team-section-wrapper {
+  padding: 30px;
+}
+
+.team-section {
+  margin-top: 100px;
+}
+.team-card-img {
+  width: 100%;
+}
+/* Project html */
+.table {
+  background: #7a92a2;
+  font-family: Arbutus slab, serif;
+}
+
+.project-fees-title {
+  text-align: center;
+}
+
+.project-fees {
+  background-color: #7a92a2;
+  padding: 40px;
+}
+
+/* Copyright section */
+.copyright_part {
+  background-color: #303030;
+  margin: 10px;
+}
+
+.footer-social {
+  font-size: 2.0rem;
+  color: #fff;
+}
+
+.footer-text {
+  font-size: 1rem;
+  color: #fff;
 }
