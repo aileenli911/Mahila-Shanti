@@ -197,6 +197,12 @@ a {
   background-color: #7a92a2;
   padding: 40px;
 }
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
 
 /* Copyright section */
 .copyright_part {
